@@ -93,7 +93,7 @@ void loop() {
 
 // Function to send GPS coordinates as an SMS response
 void sendGPSSMS(double lat, double lon) {
-  String number = "+5581996040596"; // Destination number
+  String number = "+mobile number with DDI"; // Destination number
   String message;
 
   if (lat == 0.0 && lon == 0.0) {
